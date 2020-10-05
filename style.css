@@ -6,20 +6,21 @@ BODY {
   color:#444;
   font-weight:400;
 }
-
+/* banner name is size 3em, all uppercase letters and centered at top of page in dark gray*/
 h1 {
   font-size:3em;
   text-transform:uppercase;
   text-align:center;
   color:#33485e;
 
+/* title all letters are uppercase, font size is changed to 1.5em, and is dark gray */
 }
 strong {
   color:#33485e
   text-transform:uppercase;
   font-size:1.5em;
 }
-
+/* subtitles are 1.5em in size, the text is all uppercase, and dark gray in color with background*/
 h2 {
   font-size:1.5em;
   text-transform:uppercase;
@@ -27,19 +28,24 @@ h2 {
   color:#fff;
 
 }
+/* job title font size is changed to 1.5em and 600 level boldness*/
 h3 {
   font-size:1.5em;
   text-transform:bold:600;
 
 }
+/* organization name is 1em in size and 400 level in boldness*/
 h4 {
   text-transform:bold:400;
-  font-size:1.5em;
+  font-size:1em;
 }
-
+/* organization date is 400 level in boldness and font size is 1em in italic*/
 h5 {
   text-transform: bold:400;
   font-size:1em;
-  text-transform: italic;
-
+  text-transform:italic;
+}
+/* degree and skills information is 1em in size*/
+h6 {
+  font-size:1em;
 }
