@@ -28,3 +28,14 @@ h2 {
   color:#fff;
 
 }
+/* job title font size is changed to 1.5em and 600 level boldness*/
+h3 {
+  font-size:1.5em;
+  text-transform:bold:600;
+
+}
+/* organization name is 1em in size and 400 level in boldness*/
+h4 {
+  text-transform:bold:400;
+  font-size:1em;
+}
