@@ -40,5 +40,6 @@ h4 {
 h5 {
   text-transform: bold:400;
   font-size:1em;
-  
+  text-transform: italic;
+
 }
