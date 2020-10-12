@@ -6,46 +6,93 @@ BODY {
   color:#444;
   font-weight:400;
 }
+#container {
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
 /* banner name is size 3em, all uppercase letters and centered at top of page in dark gray*/
-h1 {
+#name {
   font-size:3em;
   text-transform:uppercase;
   text-align:center;
   color:#33485e;
+  border-bottom: 1px solid #33845e;
+  width: 60%;
+  min-width: 300px;
+
 
 /* title all letters are uppercase, font size is changed to 1.5em, and is dark gray */
 }
-strong {
+.title {
   color:#33485e
   text-transform:uppercase;
   font-size:1.5em;
+  font-weight: 600;
+  text-align: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 /* subtitles are 1.5em in size, the text is all uppercase, and dark gray in color with background*/
-h2 {
+.sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
   color:#fff;
-
+margin-top: 20px;
+margin-bottom: 10px;
+margin-right:0px;
+margin_left:0px;
+width:70%;
+mid_width:300px;
 }
 /* job title font size is changed to 1.5em and 600 level boldness*/
-h3 {
+.jobtitle {
   font-size:1.5em;
   text-transform:bold:600;
 
 }
 /* organization name is 1em in size and 400 level in boldness*/
-h4 {
+.organization {
   text-transform:bold:400;
-  font-size:1em;
+  font-size:1.25em;
 }
-/* organization date is 400 level in boldness and font size is 1em in italic*/
-h5 {
+/* organization date is 400 level in boldness and font size is 1em in italic */
+.date {
   text-transform: bold:400;
   font-size:1em;
   text-transform:italic;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 /* degree and skills information is 1em in size*/
-h6 {
+.degree {
   font-size:1em;
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align:center;
+  text_transform: inline;
+}
+.top {
+  width: 60%
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px
 }
