@@ -1,0 +1,70 @@
+1) In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+
+Google is the best search engine in the world.
+ANSWER:
+<a>Google</a> is the best search engine in the world.
+<a href="https://www.google.com/">
+
+2) Describe the purpose of a DIV tag.
+ANSWER:
+DIV tags are used as containers that allow for code to be styled in CSS.
+Any form of content or media can be put inside a DIV tag or <div></div>.
+
+3) Write out the basic structure of an HTML page, putting the basic tags in the correct position.
+(Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
+ANSWER:
+BASIC HTML PAGE:
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>heading</h1>
+  <p>paragraph</p>
+  <h2>heading 2</h2>
+  <p>paragraph</p>
+  <h3>heading 3</h3>
+  <p>paragraph</p>
+</body>
+</html>
+
+4)There are two main "areas" or "sections" in the basic structure of an HTML page.
+In which area would you put a link to a stylesheet?
+ANSWER:
+Links to stylesheets go under the first <body> tag or under the first <head> tag
+
+5)In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+ANSWER:
+Text, images, and DIV tags go within the <body> tags and around <h1,2,and 3> tags
+
+6) In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+ANSWER:
+<div class="graphicbox"></div>
+    <div id="name"></div>
+
+7) In the space below, put one DIV tag with an ID of apples and a class of fruit.
+ANSWER:
+<div id="apples" class="fruit"></div>
+
+8) In the space below, write the correct CSS code to target a DIV with a class of fruit.
+Make the color of the text black (#000000).
+ANSWER:
+CSS code: .apples {
+text-color:#000000;
+}
+
+9) What tag would we use to include an image on an HTML page? Just give me the name of the tag,
+you don't have to write out all the code.
+ANSWER:
+<img src=url/>
+
+10)  Why do we use media queries?
+ANSWER:
+Media queries are used for testing a layout for multiple devices such as mobile versus print.
+
+11)What is the main difference between a serif and a sans-serif font?
+ANSWER:
+The main difference between a serif and sans-serif font is serif fonts have tails and sans-serif fonts
+have simple clean lines.
+
+12) Which of the following is a hexadecimal code?
+ANSWER:
+#FFCC33
