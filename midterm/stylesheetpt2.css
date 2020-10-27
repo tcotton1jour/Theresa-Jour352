@@ -1,4 +1,4 @@
-
+/* CSS style with text style and font */
 #content {
   margin-right: auto;
   margin-left: auto;
@@ -29,16 +29,12 @@ strong {
   font-size: 3em;
   font-style: italic;
 }
-image 2 {
+.image {
 
   padding-left: 20px;
   padding-right: 20px;
 }
-image 4 {
-  
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 p {
 font-family: 'Open Sans', sans-serif;
 font-size: 18px;
