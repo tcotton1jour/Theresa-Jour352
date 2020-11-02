@@ -1,0 +1,108 @@
+/* Style for my final resume */
+
+BODY {
+font-family: 'Raleway', sans-serif;;
+background-color: #fff;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight:400;
+  text-align:left;
+}
+
+.scrollable {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.boxed {
+width: 1200px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 30px;
+
+.menu {
+  text-align: left;
+  margin-left: auto;
+}
+}
+.container {
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+
+}
+.col-md-4 {
+  font-size: 1em
+
+
+}
+.bio {
+  text-align: left;
+  padding-bottom: 200px
+
+
+}
+.subtitles {
+  text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 1.5em;
+
+}
+h2{
+  text-align: left;
+  font-size: 1.5emem;
+}
+
+jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+
+
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 15rem;
+      padding-bottom: 15rem;
+      text-align: center;
+      background-color: #9FCBFA;
+      text-transform: uppercase;
+      font-style: normal;
+
+    }
+
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  footer p {
+    margin-bottom: .25rem;
+  }
+  /*sample media query code*/
+
+  /* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
