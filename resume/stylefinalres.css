@@ -1,0 +1,82 @@
+/*Style for final resume1*/
+BODY {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  background-color: #fff;
+
+}
+#biotitle {
+  font-size: 1.5em;
+  font-style: italic;
+  margin-top: 2.5em;
+
+}
+#profileimage {
+  border-radius: 50%;
+  width: 255px;
+  height: 255px;
+  margin-left: 6em;
+  margin-right: 6em;
+}
+#bio {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Playfair Display', serif;
+  border-radius: 5%;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 2em;
+  background-color: #f2f2f2;
+}
+#experience {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  font-size: 1.25em;
+}
+#education {
+font-style: italic;
+  text-align: center;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-size: 1.25em;
+}
+#skills {
+font-style: italic;
+  text-align: center;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-size: 1.25em;
+
+}
+.display-4 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.navbar-brand {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.lead {
+  text-transform: lowercase;
+  margin-top: 1.5em;
+  font-size: 1em;
+}
+#copy {
+  margin-bottom: 1em;
+}
+.jumbotron {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  background-color: #ffffcc;
+}
+.scrollable {
+  overflow-x: auto;
+  overflow-y: hidden;
